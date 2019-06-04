@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/songtianyi/rrframework/logs"
-	"github.com/songtianyi/rrframework/storage"
+	"github.com/jacoblai/rrframework/logs"
+	"github.com/jacoblai/rrframework/storage"
 )
 
 type RealtimeDownloader struct {

@@ -1,4 +1,4 @@
-// Copyright 2016 laosj Author @songtianyi. All Rights Reserved.
+// Copyright 2016 laosj Author @jacoblai. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/songtianyi/rrframework/connector/redis"
-	"github.com/songtianyi/rrframework/logs"
-	"github.com/songtianyi/rrframework/storage"
+	"github.com/jacoblai/rrframework/connector/redis"
+	"github.com/jacoblai/rrframework/logs"
+	"github.com/jacoblai/rrframework/storage"
 )
 
 const (

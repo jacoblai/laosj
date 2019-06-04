@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/songtianyi/rrframework/logs"
-	"github.com/songtianyi/rrframework/storage"
+	"github.com/jacoblai/rrframework/logs"
+	"github.com/jacoblai/rrframework/storage"
 
-	"github.com/songtianyi/rrframework/connector/redis"
+	"github.com/jacoblai/rrframework/connector/redis"
 
-	"github.com/songtianyi/laosj/downloader"
-	"github.com/songtianyi/laosj/sources"
+	"github.com/jacoblai/laosj/downloader"
+	"github.com/jacoblai/laosj/sources"
 
 	"github.com/urfave/cli"
 )
@@ -119,11 +119,11 @@ func main() {
 	app.Compiled = time.Now()
 	app.Authors = []cli.Author{
 		cli.Author{
-			Name:  "songtianyi",
-			Email: "songtianyi630@163.com",
+			Name:  "jacoblai",
+			Email: "jacoblai630@163.com",
 		},
 	}
-	app.Copyright = "Copyright (c) 2016-2018 songtianyi"
+	app.Copyright = "Copyright (c) 2016-2018 jacoblai"
 	app.Commands = []cli.Command{
 		{
 			Name:    "aiss",
@@ -254,7 +254,7 @@ func main() {
 		},
 		cli.StringFlag{
 			Name:        "directory, dir",
-			Value:       "/Volumes/songtianyi/sexx",
+			Value:       "/Volumes/jacoblai/sexx",
 			Usage:       "the local disk storage path prefix, no slash in the end",
 			Destination: &appConfig.Dir,
 		},

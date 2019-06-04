@@ -3,7 +3,7 @@ package sources
 import (
 	"errors"
 
-	"github.com/songtianyi/laosj/downloader"
+	"github.com/jacoblai/laosj/downloader"
 )
 
 // images sources
